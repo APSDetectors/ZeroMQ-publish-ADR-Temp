@@ -10,7 +10,7 @@ A simple example how use zeroMQ (publish/subscribe).
 
 ## Installation Notes
 * Requires zeroMQ LabView binding (via JKI VI Package Manager)
-	** Uses ZeroMQ Socket Library v3.4.1.107 by Martijn Jasperse (http://zeromq.org/bindings:labview)
+** Uses ZeroMQ Socket Library v3.4.1.107 by Martijn Jasperse (http://zeromq.org/bindings:labview)
 * Obviously the StarCryo ADR controller system!
 
 
