@@ -9,6 +9,8 @@ A simple example how use zeroMQ (publish/subscribe).
 * test-zmq-labview-ADR.py is a python script which can run on any other machine (e.g., a linux machine) to read the zmq published temperature. 
 
 ## Installation Notes
-* Requires zeroMQ LabView binding and obviously the StarCryo ADR controller system!
+* Requires zeroMQ LabView binding (via JKI VI Package Manager)
+	** Uses ZeroMQ Socket Library v3.4.1.107 by Martijn Jasperse (http://zeromq.org/bindings:labview)
+* Obviously the StarCryo ADR controller system!
 
 
