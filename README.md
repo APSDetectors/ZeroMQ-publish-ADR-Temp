@@ -1,8 +1,8 @@
 # ZeroMQ-publish-ADR-Temp
 
-A simple example how use zeroMQ (publish/subscribe).
+A simple example how to use zeroMQ (publish/subscribe).
 
-* zeroMQ-publish-ADR-50mK.vi is a simple LabView VI which reads the 50mK temperature NI SharedVariable from the StarCryo ADR magnetic controller and publishes is on a zeroMQ socket. The praactical reason for this was that we wanted to access the ADR temperature from the linux machine. This was easier than then trying to figure out how to directly read NI SharedVariables from linux.
+* zeroMQ-publish-ADR-50mK.vi is a simple LabView VI which reads the 50mK temperature NI SharedVariable from the StarCryo ADR magnet controller (on a HPD Denali 102 Cryostat) and publishes is on a zeroMQ socket. The practical reason for this was that we wanted to access the ADR temperature from the linux machine. This was easier than trying to figure out how to directly read NI SharedVariables from linux.
 
 * zeroMQ-subscribe-multipart.vi is just a zeroMQ subscriber which reads the published temperature
 
